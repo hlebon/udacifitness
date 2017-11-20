@@ -18,11 +18,11 @@ function SubmitBtn({onPress}){
 
 export default class AddEntry extends Component{
     state = {
-        run: 5,
-        bike:20,
-        swin: 40,
-        sleep: 3,
-        eat: 10
+        run: 0,
+        bike:0,
+        swin: 0,
+        sleep: 0,
+        eat: 0
     }
 
     increment = (metric) => {
