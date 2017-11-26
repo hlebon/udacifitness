@@ -65,13 +65,10 @@ export default class AddEntry extends Component{
             eat: 0
         }))
 
-        //update redux
+        
 
         //navigate to home
         submitEntry({ key, entry })
-
-        //save to DB
-
         //clear local notification
     }
 
